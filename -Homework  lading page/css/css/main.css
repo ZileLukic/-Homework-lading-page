@@ -1,0 +1,151 @@
+html, body {
+    height: 100%;
+}
+
+/*************************************
+    Global Styles
+**************************************/
+
+body {
+    margin: 0;
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #333;
+}
+h1, h2, h3, h4 {
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+h3 {
+    font-size: 30px;
+}
+h4 {
+    font-size: 22px;
+}
+
+p {
+    margin: 0;
+}
+small {
+    font-size: 14px;
+    font-style: italic;
+}
+
+/**************************************
+    Layout
+***************************************/
+
+.container, .main-container {
+    width: 900px;
+    margin: 0 auto;
+}
+.main-container {
+    padding: 30px;
+    background-color: #fff;
+}
+.main-nav {
+    height: 60px;
+    background-color: #000;
+    
+}
+.main-header {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #333;
+    margin-bottom: 50px;
+}
+.main-footer {
+    padding: 25px;
+    border-top: 1px solid #333;
+}
+.col1-2,
+.col1-4 {
+    float: left;
+    width: 450px;
+}
+.col1-4 {
+    width: 225px;
+}
+.row {
+    margin-bottom: 50px;
+}
+
+/**************************************
+    Specific Styles
+***************************************/
+
+.main-nav ol {
+    float: right;
+    margin-top: 13px;
+}
+
+.main-nav ol li {
+    float: left;
+    border-right: 1px solid white;
+}
+.main-nav ol li:last-child {
+    border: 0 none;
+}
+.main-nav ol li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 25px;
+}
+.main-nav ol li a:hover {
+    text-decoration: underline;
+}
+.logo {
+    font-size: 100px;
+    margin: 0;
+}
+.tagline {
+    margin: 0;
+    letter-spacing: 3px;
+    font-size: 40px;
+    font-weight: normal;
+}
+.article-basic {
+    padding: 25px;
+}
+.article-dark, .article-spec {
+    background-color: #333;
+    color: #fff;
+}
+.article-spec {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: right;
+}
+.sentence-start {
+    font-size: 80px;
+    color: #00CC66;
+    line-height: 1;
+}
+.sentence-end {
+    color: #6699CC;
+}
+
+/**************************************
+    Helper Styles
+***************************************/
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
